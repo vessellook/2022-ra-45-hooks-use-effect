@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  margin: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+}
+
+.user {
+  border: 1px solid #ccc;
+  border-top-width: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.user:first-child {
+  border-top-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.user:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.user.user_chosen {
+  border: none;
+  background: #0f7ffa;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.details {
+  max-width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details__avatar {
+  width: 100%;
+}
+
+.details__field {
+  border: 1px solid #ccc;
+  border-top-width: 0;
+  padding: 10px;
+}
+
+.details__field_name {
+  padding: 20px 10px;
+}
+
+.details__field:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.fixed-ratio {
+  position: relative;
+}
+
+.fixed-ratio__inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
