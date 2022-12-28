@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/2022-ra-45-hooks-use-effect/static/css/main.c2a55f21.css",
+    "main.js": "/2022-ra-45-hooks-use-effect/static/js/main.b84f0a5d.js",
+    "static/js/787.bec6baa6.chunk.js": "/2022-ra-45-hooks-use-effect/static/js/787.bec6baa6.chunk.js",
+    "index.html": "/2022-ra-45-hooks-use-effect/index.html",
+    "main.c2a55f21.css.map": "/2022-ra-45-hooks-use-effect/static/css/main.c2a55f21.css.map",
+    "main.b84f0a5d.js.map": "/2022-ra-45-hooks-use-effect/static/js/main.b84f0a5d.js.map",
+    "787.bec6baa6.chunk.js.map": "/2022-ra-45-hooks-use-effect/static/js/787.bec6baa6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2a55f21.css",
+    "static/js/main.b84f0a5d.js"
+  ]
+}
